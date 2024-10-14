@@ -114,15 +114,7 @@
     width: 1510px;
  
 }
-/* .productimg{
-    display: flex;
-    position: absolute;
-    height: 300px;
-    width: 1400px;
-    background: transparent;
-    transform: translate(-5%,-5%);
-    margin: 230px 0px 0px 43px;
-} */
+
 .maincontainer{
     display: flex;
     position: absolute;
