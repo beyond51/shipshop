@@ -1,0 +1,555 @@
+* {
+  margin: 0;
+  font-family: arial;
+  border: border-box;
+  text-decoration: none;
+}
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: lightsteelblue;
+}
+.navbar {
+  position: fixed absolute;
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid 1px white;
+}
+.nav-logo {
+  height: 50px;
+  width: 200px;
+  margin-left: 10px;
+  border-radius: 25px 10px;
+}
+.logo {
+  color: red;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-size: cover;
+  height: 50px;
+  width: 190px;
+  border-radius: 25px 10px;
+  margin-left: 8px;
+}
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  border: 2px solid red;
+}
+.menu-btn {
+  display: flex;
+  margin-left: 50px;
+}
+.btn1 {
+  margin-left: 0px;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 150px;
+  float: left;
+  background-color: red;
+  border: none;
+  transition: 0.5s;
+}
+.btn1:hover {
+  /* border: solid 2px; */
+  border-radius: 10px 10px;
+  animation-duration: 0.1ms;
+  box-shadow: 0 0px 5px 0 white, 0 0px 2px 0 white;
+  border: SOLID black;
+}
+.nav-search {
+  margin-left: 40px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 40px;
+  width: 400px;
+  border-radius: 5px 5px;
+}
+.search-input {
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  border-radius: 3px 3px;
+  color: red;
+  border: solid white;
+}
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 3px 3px;
+  /* color: red; */
+  border: solid red;
+}
+.cart-logo {
+  height: 35px;
+  border: solid red;
+  width: 45px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: 1px;
+  margin-right: 5px;
+}
+/* .img1{
+    
+    height: 1100px;
+    width: 100%;
+}
+.Eimg{
+    margin-top: 60px;
+    position: absolute;
+    height: 700px;
+    width: 1510px;
+ 
+} */
+/* .productimg{
+    display: flex;
+    position: absolute;
+    height: 300px;
+    width: 1400px;
+    background: transparent;
+    transform: translate(-5%,-5%);
+    margin: 230px 0px 0px 43px;
+} */
+.containerbox {
+  height: 200px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: white;
+  margin-top: 50px;
+  margin-left: 73px;
+  border-radius: 10px 10px 0px 50px;
+}
+#first {
+  height: 114px;
+  width: 100px;
+  background-color: red;
+  border-radius: 5px 5px 0px 30px;
+  border: solid red;
+}
+#one {
+  height: 88px;
+  width: 100px;
+  border-radius: 5px 5px 5px 30px;
+}
+#textone {
+  font-family: "Gill Sans";
+  font-weight: 600;
+  font-size: 19px;
+  text-align: end;
+  text-decoration: underline red;
+  color: black;
+}
+.containerone {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  height: 400px;
+  width: 100%;
+  justify-content: space-evenly;
+  /* margin-left: -100px; */
+}
+.poster {
+  width: 500px;
+  border-radius: 10px 50px 0px 50px;
+}
+.containertwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.img2a {
+  height: 390px;
+}
+.img2b {
+  height: 390px;
+}
+.containerthree {
+  background-color: white;
+  height: 950px;
+  width: 98.5%;
+  margin: 50px 0px 0px 11px;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.containerthree1 {
+  position: absolute;
+  /* display: flex; */
+  height: 585px;
+  width: 98.5%;
+  border-radius: 0px 0px 150px 150px;
+  background-color: lightcyan;
+}
+.para1 {
+  position: absolute;
+  height: 120px;
+  width: 160px;
+  margin: 15px 0px 0px 40px;
+  /* background-color: black; */
+}
+.p1 {
+  font-weight: 900;
+  font-family: "font awesome";
+  color: red;
+  font-size: 31px;
+  margin: 11px 0px 0px 49px;
+}
+.para2 {
+  position: absolute;
+  height: 120px;
+  width: 160px;
+  margin: 15px 0px 0px 1200px;
+}
+.p2 {
+  margin: 10px 0px 0px 9px;
+  font-weight: 900;
+  color: red;
+  font-size: 31px;
+  font-family: "font awesome";
+}
+.containerthreeA {
+  height: 200px;
+  width: 554px;
+  margin: 0px 0px 0px 242px;
+}
+.para3 {
+  /* position: absolute; */
+  height: 103px;
+  width: 550px;
+  margin: 145px 0px 0px 40px;
+}
+.p3 {
+  margin: 10px 0px 0px 9px;
+  font-weight: 900;
+  font-size: 60px;
+  font-family: "font awesome";
+}
+
+.p3a {
+  height: 50px;
+  width: 150px;
+  margin: 45px 0px 0px 60px;
+  border-radius: 5px 5px 5px 5px;
+  font-weight: 900;
+  font-size: 20px;
+  color: lightcyan;
+  background-color: midnightblue;
+}
+.p3a:hover {
+  animation-duration: 0.1ms;
+  box-shadow: 0 0px 5px 0 white, 0 0px 2px 0 white;
+  border: SOLID red;
+}
+.para4 {
+  height: 400px;
+  width: 400px;
+  margin: -208px 0px 0px 716px;
+}
+.p4 {
+  height: 460px;
+  width: 500px;
+  border-radius: 260px 260px 0px 0px;
+}
+.containerthree2 {
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+  margin: 600px 0px 0px 176px;
+}
+.para5 {
+  margin: 0px 0px 0px 34px;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: "font awesome";
+  color: midnightblue;
+  /* text-shadow:5px lightcyan; */
+}
+.containerthree3 {
+  position: absolute;
+  height: 200px;
+  width: 98.5%;
+  justify-content: space-evenly;
+  display: flex;
+  margin-top: 675px;
+}
+.poster2 {
+  margin: 0px -108px 0px -129px;
+  height: 250px;
+  width: 248px;
+  background-color: ghostwhite;
+  border: solid 1px red;
+  border-radius: 5px 5px;
+}
+.p6 {
+  height: 150px;
+  width: 116px;
+  margin: 19px 0px 0px 65px;
+}
+.p7 {
+  height: 150px;
+  width: 116px;
+  margin: 19px 0px 0px 65px;
+}
+.p8 {
+  height: 150px;
+  width: 116px;
+  margin: 19px 0px 0px 65px;
+}
+.p9 {
+  height: 150px;
+  width: 116px;
+  margin: 19px 0px 0px 65px;
+}
+.p6a {
+  font-size: 19px;
+  text-align: center;
+  text-decoration: none;
+}
+.p7a {
+  font-size: 19px;
+  text-align: center;
+}
+.p8a {
+  font-size: 19px;
+  text-align: center;
+}
+.p9a {
+  font-size: 19px;
+  text-align: center;
+}
+.innertext {
+  /* margin: 10px 0px 0px 5px; */
+  text-align: center;
+  color: gray;
+}
+.containerfour {
+  height: 515px;
+  width: 98.5%;
+  display: flex;
+  margin: 50px 0px 0px 11px;
+  /* justify-content: space-evenly; */
+}
+.para5 {
+  margin: 0px 0px 0px 0px;
+  height: 285px;
+  width: 525px;
+}
+.para5a {
+  margin: 0px 0px 0px 0px;
+  height: 250px;
+  width: 525px;
+  border: solid 2px black;
+}
+.para6 {
+  height: 515px;
+  width: 455px;
+  margin: 0px 0px 0px 515px;
+}
+.para6a {
+  /* filter: blur(1px); */
+  position: absolute;
+  height: 515px;
+  width: 455px;
+  border: solid 2px black;
+}
+
+.para6b {
+  height: 600px;
+  width: 250px;
+  position: absolute;
+  margin: 0px 0px 0px 198px;
+}
+
+.para6ba {
+  text-align: end;
+  font-size: 65px;
+  font-family: "font awesome";
+  font-weight: bolder;
+  text-transform: lowercase;
+  color: grey;
+  text-shadow: 5px 0px black;
+}
+
+.para6c {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  margin: 429px 0px 0px 66px;
+  border: solid 1px red;
+  border-radius: 5px 5px 5px 5px;
+  font-weight: 900;
+  font-size: 18px;
+  color: lightcyan;
+  background-color: steelblue;
+}
+.para6c:hover {
+  animation-duration: 0.1ms;
+  box-shadow: 0 0px 5px 0 white, 0 0px 1px 0 white;
+  border: SOLID red;
+}
+.para7 {
+  height: 515px;
+  width: 454px;
+  position: absolute;
+  margin: 0px 0px 0px 555px;
+}
+.para7a {
+  height: 515px;
+  width: 454px;
+  position: absolute;
+  border: solid 2px black;
+}
+.para7b {
+  position: absolute;
+  text-align: center;
+  font-size: 65px;
+  font-family: "font awesome";
+  font-weight: bolder;
+  color: black;
+  text-shadow: 3px 2px yellowgreen;
+  height: 600px;
+  width: 250px;
+  margin: 71px 0px 0px 101px;
+}
+.para7c {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 50px;
+  width: 80px;
+  margin: 429px 0px 0px 350px;
+  border: solid 1px red;
+  border-radius: 50px 50px 50px 50px;
+  font-weight: 900;
+  font-size: 20px;
+  color: lightcyan;
+  background-color: steelblue;
+}
+.para7c:hover {
+  /* animation-duration: 0.1ms; */
+  box-shadow: 0 0px 3px 0 white, 0 0px 1px 0 white;
+  border: SOLID red;
+}
+.para8 {
+  position: absolute;
+  height: 248px;
+  width: 250px;
+  margin: 265px 0px 0px 0px;
+  border: solid 2px black;
+}
+.para8a {
+  height: 248px;
+  width: 250px;
+  position: absolute;
+}
+.para8b {
+  position: absolute;
+  text-align: center;
+  font-size: 37px;
+  font-family: "font awesome";
+  font-weight: bolder;
+  height: 45px;
+  width: 247px;
+  margin: 201px 0px 0px 0px;
+  background-color: darkgrey;
+  color: darkblue;
+  border: solid 2px black;
+}
+.para9 {
+  position: absolute;
+  height: 248px;
+  width: 250px;
+  margin: 265px 0px 0px 275px;
+  border: solid 2px black;
+}
+.para9a {
+  height: 248px;
+  width: 250px;
+  position: absolute;
+}
+.para9b {
+  position: absolute;
+  text-align: center;
+  font-size: 37px;
+  font-family: "font awesome";
+  font-weight: bolder;
+  height: 45px;
+  width: 247px;
+  margin: 201px 0px 0px 0px;
+  background-color: darkgrey;
+  color: darkblue;
+  border: solid 2px black;
+}
+
+.containerfive {
+  display: flex;
+  background-color: #282323;
+  height: 300px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 50px 0px 0px 0px;
+  border: solid 2px black;
+}
+.para10 {
+  display: grid;
+  height: 200px;
+  width: 200px;
+}
+.para10a {
+  font-size: large;
+  margin: 45px 0px 0px 0px;
+  color: grey;
+}
+.a1 {
+  color: white;
+}
+.para11 {
+  display: grid;
+  height: 200px;
+  width: 200px;
+}
+.para11a {
+  font-size: large;
+  margin: 45px 0px 0px 0px;
+  color: grey;
+}
+
+.para12 {
+  display: grid;
+  height: 200px;
+  width: 200px;
+}
+.para12a {
+  font-size: large;
+  margin: 45px 0px 0px 0px;
+  color: grey;
+}
+.fa-brands,
+.fab {
+  font-weight: 400;
+  font-size: 25px;
+  color: white;
+}
+.para13 {
+  height: 70px;
+  width: 70px;
+  border-radius: 100px 100px;
+  font-size: large;
+}
